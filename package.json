@@ -1,14 +1,14 @@
 {
   "name": "esproto",
-  "version": "0.0.1",
-  "description": "EventStore protocol buffer static module with types",
+  "version": "0.0.1-alpha.1",
+  "description": "EventStore v4.0.1 protocol buffer static module with types",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "types": "index.d.ts",
-  "author": "Chris McLeod",
-  "license": "MIT",
+  "author": "Chris McLeod <chris@warebots.com>",
+  "license": "BSD-2-Clause",
   "devDependencies": {
     "protobufjs": "^6.7.3"
   }
