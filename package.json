@@ -3,6 +3,10 @@
   "version": "0.0.1-alpha.2",
   "description": "EventStore v4.0.1 protocol buffer static module with types",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrismcleod/esproto"
+  },
   "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
