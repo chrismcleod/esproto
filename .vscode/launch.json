@@ -1,0 +1,88 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Shareable (command)",
+      "runtimeExecutable": "nodemon",
+      "program": "${workspaceFolder}/src/components/shareable/command/index.ts",
+      "runtimeArgs": [
+        "-r",
+        "${workspaceFolder}/env.dev"
+      ],
+      "restart": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Shareable (query)",
+      "runtimeExecutable": "nodemon",
+      "program": "${workspaceFolder}/src/components/shareable/query/index.ts",
+      "runtimeArgs": [
+        "-r",
+        "${workspaceFolder}/env.dev"
+      ],
+      "restart": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Rx Stream: Persistent Subscription",
+      "program": "${workspaceFolder}/src/components/rxes-stream/examples/persistent-subscription.ts",
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Rx Stream: Write Events",
+      "program": "${workspaceFolder}/src/components/rxes-stream/examples/write-events.ts",
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Rx Client: Persistent Subscription",
+      "program": "${workspaceFolder}/src/components/rxes-client/examples/persistent-subscription.ts",
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Rx Client: Catchup Subscription",
+      "program": "${workspaceFolder}/src/components/rxes-client/examples/catchup-subscription.ts",
+      "outFiles": [
+        "${workspaceFolder}/**/*.js"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "(js) Launch Rx Client: Catchup Subscription",
+      "program": "${workspaceFolder}/../node_modules/rx-eventstore/rxes-client/examples/catchup-subscription.js",
+      "runtimeArgs": [
+        "-r",
+        "${workspaceFolder}/env.dev"
+      ]
+    }
+  ]
+}
