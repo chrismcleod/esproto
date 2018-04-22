@@ -12,33 +12,14 @@
     "prepublish": "yarn rebuild"
   },
   "dependencies": {
-    "immutable": "^4.0.0-rc.9",
-    "lodash": "^4.17.5",
-    "mongodb": "^3.0.4",
-    "protobufjs": "~6.8.6",
-    "ramda": "^0.25.0",
-    "redux": "^3.7.2",
-    "redux-observable": "^0.18.0",
-    "rxjs": "^5.5.7",
-    "uuid": "^3.2.1",
-    "yup": "^0.24.1"
+    "protobufjs": "~6.8.6"
   },
   "devDependencies": {
-    "@types/benchmark": "^1.0.31",
-    "@types/jest": "^22.2.0",
-    "@types/lodash": "^4.14.104",
     "@types/long": "^3.0.32",
-    "@types/mongodb": "^3.0.8",
     "@types/node": "^9.4.7",
-    "@types/ramda": "^0.25.20",
-    "@types/redux": "^3.6.0",
-    "@types/uuid": "^3.4.3",
-    "@types/yup": "^0.24.1",
-    "benchmark": "^2.1.4",
-    "jest": "^22.4.2",
     "tslint": "^5.9.1",
     "tslint-config-airbnb": "^5.7.0",
     "tslint-eslint-rules": "^5.1.0",
-    "typescript": "^2.8.0-dev.20180308"
+    "typescript": "^2.8.0"
   }
 }
