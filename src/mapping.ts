@@ -1,4 +1,4 @@
-import { eventstore } from './esproto';
+import { eventstore } from '../lib/esproto';
 
 // Outgoing
 export const WRITE_EVENTS = 'WriteEvents';
