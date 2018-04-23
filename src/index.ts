@@ -1,4 +1,5 @@
-import * as esproto from './esproto';
+import * as esproto from '../lib/esproto';
 
 export * from './mapping';
-export default esproto.eventstore.proto;
+export import proto = esproto.eventstore.proto;
+export default proto;
